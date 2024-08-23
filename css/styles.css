@@ -636,8 +636,9 @@ input[placeholder="E-mail"] {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  stroke: #2e2f42;
-  fill: none;
+
+  
+  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
