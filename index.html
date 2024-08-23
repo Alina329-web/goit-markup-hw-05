@@ -472,27 +472,28 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer-form">
-        <p class="footer-form-text">Subscribe</p>
-        <form class="footer-form-subscribe">
-          <label class="footer-form-label" for="e-mail">
-            <input
-              class="email-input"
-              placeholder="E-mail"
-              type="email"
-              id="e-mail"
-              name="email"
-              autofocus
-            />
-          </label>
-          <button class="subscribe-btn" type="submit">
-            Subscribe
-            <svg class="subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+
+        <div class="footer-form">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form-subscribe">
+            <label class="footer-form-label" for="e-mail">
+              <input
+                class="email-input"
+                placeholder="E-mail"
+                type="email"
+                id="e-mail"
+                name="email"
+                autofocus
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -508,7 +509,13 @@
           <div class="form-wraper-cont">
             <label class="modal-form-label" for="user-name">Name </label>
             <div class="modal-cont-input">
-              <input class="modal-input" type="text" id="user-name" required />
+              <input
+                class="modal-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                required
+              />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -535,18 +542,21 @@
           <div class="form-wraper-cont-coment">
             <label class="modal-form-label-coment" for="user-coment"
               >Comment
-              <textarea
-                class="modal-textarea"
-                id="user-coment"
-                placeholder="Text input"
-              ></textarea>
             </label>
+            <textarea
+              class="modal-textarea"
+              id="user-coment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="modal-cont-checkbox">
             <input
               type="checkbox"
               class="checkbox visually-hidden"
               id="user-checkbox"
+              name="user-checkbox"
+              value="true"
             />
             <label for="user-checkbox" class="custem-label-user-checkbox">
               <span class="custem-checkbox"
